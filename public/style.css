@@ -1,0 +1,156 @@
+/* Reset some default styles for the HTML and body */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Modern and minimalist design for the title */
+  .title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  /* Stylish chat container with a soft background */
+  .main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Sleek name input section with placeholders */
+  .name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #007bff;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #007bff;
+    transition: border-color 0.2s;
+  }
+  
+  .name-input::placeholder {
+    color: #007bff;
+    opacity: 0.5;
+  }
+  
+  .name-input:focus {
+    border-color: #0056b3;
+  }
+  
+  /* Clean and minimalistic message container */
+  .message-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Stylish message bubbles with animations */
+  .message-left, .message-right {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    transition: background-color 0.2s;
+  }
+  
+  .message-left {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-start;
+    animation: fadeInLeft 0.3s;
+  }
+  
+  .message-right {
+    background-color: #f5f5f5;
+    color: #333;
+    align-self: flex-end;
+    animation: fadeInRight 0.3s;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Stylish message input form */
+  .message-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .message-input::placeholder {
+    color: #ccc;
+  }
+  
+  .message-input:focus {
+    border-color: #007bff;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Stylish total clients count */
+  .clients-total {
+    text-align: center;
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  /* Add more custom styles as needed */
+  
