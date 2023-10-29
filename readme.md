@@ -40,6 +40,7 @@ Follow these steps to deploy this chat app to AWS Elastic Beanstalk using AWS Co
    - Create this role before in hand by attaching the following policies: 
       ![6](https://github.com/Uriyo/codepipeline/assets/87664057/f248918d-461f-44f2-94fd-ac1f80309f59)
    - myebspolicy looks like :
+   ```json
       {
 	"Version": "2012-10-17",
 	"Statement": [
@@ -340,5 +341,5 @@ Follow these steps to deploy this chat app to AWS Elastic Beanstalk using AWS Co
 
 ## Contributions
 
-Contributions are welcome. Please fork the repository and create a pull request with your changes.
+Contributions are welcome. Please! fork the repository and create a pull request with your changes.
 
