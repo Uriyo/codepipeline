@@ -22,7 +22,8 @@ Follow these steps to deploy this chat app to AWS Elastic Beanstalk using AWS Co
 1. **Create an AWS Elastic Beanstalk Environment:**
 
    - Go to the AWS Elastic Beanstalk console.
-   
+   ![Screenshot 2023-10-29 094436](https://github.com/Uriyo/codepipeline/assets/87664057/fe91fd38-3bcf-4079-b20e-f4e1a5cd6f1c)
+
    - Click "Create New Environment."
    - Choose your application platform and configure the environment settings.
    - Click "Create Environment."
